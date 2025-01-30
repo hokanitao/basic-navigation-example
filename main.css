@@ -6,6 +6,11 @@
   list-style: none;
 }
 
+body{
+  height: 100%;
+  margin: -10px;
+}
+
 nav {
   padding: 32px 32px;
   min-height: 80px;
@@ -59,4 +64,66 @@ nav ul li a:active {
 
 #current-page {
   color: aquamarine;
+}
+
+header {
+  display: inline-block;
+  margin: -10px;
+  padding: 30px;
+  text-align: center;
+  width: 70%;
+}
+
+main {
+  margin: -10px;
+  height: calc(70vh - 30px);
+}
+
+#main {
+  display: inline-block;
+  min-height: 500px;
+  width: 70%;
+}
+
+main aside {
+  display: inline-block;
+  margin-top: -70px;
+  width: 29%;
+  height: 100%;
+  background-color: #1f1f1f;
+  vertical-align: top;
+}
+
+main aside nav h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+main aside nav ul {
+  width: 100%;
+  text-align: center;
+}
+
+main aside nav ul li {
+  display: list-item;
+  margin: 10px;
+}
+
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+footer nav ul {
+  margin: 0px;
+  align-items: center;
+}
+
+footer p {
+  padding: 32px;
+  margin: auto;
+  color: white;
+  border-top: 1px solid white;
+  width: 90%;
 }
